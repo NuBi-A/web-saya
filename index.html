@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<HTML lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Sample Welcome Page</title>
+    <style>
+      /* Desain Dasar */
+      body {
+        margin: 0;
+        font-family: 'segoe UI', sans-serif;
+        background-color: #f4f9f9;
+        text-align: center; scroll-behavior: smooth;
+        }
+      /* Navigasi Modern */
+      nav {
+        background: #004d40;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        }
+      nav a { color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+        }
+      
+      /* Bagian Hero (Sambutan) */
+      .hero {
+        padding: 60px 20px; }
+      h1 { color: #00796b; }
+      
+      img {
+        width: 100℅;
+        max-width: 500px;
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+      
+      /* Bagian Tentang Saya */
+     .tentang {
+        padding: 40px 20px
+        backround: white;
+        max-width: 800px;
+        margin: 20px auto;
+        border-radius: 15px;
+       }
+      
+      /* Tombol Modern */
+      .btn-mulai {
+        backround: #00796b;
+        color: black !important;
+        padding: 15px 30px
+        border: none;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 25px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+       }
+      .btn:hover { backround: #004d40; }
+      .section-box { padding: 60px 20px; backround: white; margin: 20px; border-radius: 15px; }
+      </style>
+    </head>
+    <body>
+      
+      <nav>
+        <a href="#">beranda</a>
+        <a href="tentang">tentang</a>
+        <a href="kontak">Kontak Saya</a>
+        </nav>
+      
+      <div class="hero">
+        <h1>Selamat Datang di Tempat Saya</h1>
+        <p>Ini hanyalah sample untuk latihan programmer.</p>
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="pantai">
+        <br>
+        <br>
+        <button class="btn-mulai" onclick="tampilPesan()">Mulai Petualangan</button>
+      </div>
+      
+      <div id="tentang" class="section-box">
+        <h2>Tentang Saya</h2>
+        <p> Saya adalah Seorang Programmer dan Web Development pemula yang memulai kerja profesional di Tahun 2026, ini hanya sample Laning page Saya. jika Anda tertarik, Anda bisa menghubungi Saya melalui kontak Whatsapp untuk informasi dan Kerjasama,.</p>
+      </div>
+      
+      <div id="kontak" class="section-box">
+        <h2>Kontak Saya</h2>
+        <p>Anda bisa menghubungi saya melalui WhatsApp:</p>
+        <c href="https://wa.me/6285716381142" class="btn-mulai" style="backround-color: #25D366;">WhatsApp</c>
+        
+      <footer style="padding: 20px; color: #777; font-size: 0.8em;">
+        &copy; 2026 - Dibuat dengan semangat oleh [NuBi]
+        </footer>
+      
+      <script>
+        function tampilPesan() {
+          alert("Terima Kasih sudah berkunjung! Senang melihat Anda di sini.");
+          }
+        </script>
+      
+      </body>
+  </html>
